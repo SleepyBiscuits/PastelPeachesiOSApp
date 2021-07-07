@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MJt-QH-CPw" userLabel="LogoView">
+                                <rect key="frame" x="73" y="323" width="269" height="250"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WELCOME TO PASTELPEACHES SHOPPING APP" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="06K-ig-OB2">
+                                        <rect key="frame" x="10" y="163" width="249" height="79"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="06K-ig-OB2" secondAttribute="height" multiplier="249:79" id="jXu-75-ZBo"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" red="0.29783844949999999" green="0.13149860499999999" blue="0.62359273429999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bwm-3I-WWa">
+                                        <rect key="frame" x="28" y="3" width="212" height="152"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="peaches" translatesAutoresizingMaskIntoConstraints="NO" id="bge-1K-vH8">
+                                                <rect key="frame" x="27" y="8" width="158" height="136"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="bge-1K-vH8" secondAttribute="bottom" constant="8" id="dmn-pj-WNR"/>
+                                            <constraint firstItem="bge-1K-vH8" firstAttribute="leading" secondItem="bwm-3I-WWa" secondAttribute="leading" constant="27" id="eqp-2i-XPa"/>
+                                            <constraint firstAttribute="trailing" secondItem="bge-1K-vH8" secondAttribute="trailing" constant="27" id="fe9-ga-Lf2"/>
+                                            <constraint firstItem="bge-1K-vH8" firstAttribute="top" secondItem="bwm-3I-WWa" secondAttribute="top" constant="8" id="yew-UE-gec"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="06K-ig-OB2" firstAttribute="top" secondItem="bwm-3I-WWa" secondAttribute="bottom" constant="8" symbolic="YES" id="0Ai-G0-MR1"/>
+                                    <constraint firstAttribute="width" secondItem="MJt-QH-CPw" secondAttribute="height" multiplier="269:250" id="8Vv-ps-rKx"/>
+                                    <constraint firstItem="06K-ig-OB2" firstAttribute="leading" secondItem="MJt-QH-CPw" secondAttribute="leading" constant="10" id="BEP-2p-nv7"/>
+                                    <constraint firstItem="bwm-3I-WWa" firstAttribute="leading" secondItem="MJt-QH-CPw" secondAttribute="leading" constant="28" id="JZk-su-4q6"/>
+                                    <constraint firstAttribute="bottom" secondItem="06K-ig-OB2" secondAttribute="bottom" constant="8" id="QMG-zD-s1V"/>
+                                    <constraint firstAttribute="trailing" secondItem="bwm-3I-WWa" secondAttribute="trailing" constant="29" id="jMH-Bv-euN"/>
+                                    <constraint firstAttribute="trailing" secondItem="06K-ig-OB2" secondAttribute="trailing" constant="10" id="km3-BN-GaG"/>
+                                    <constraint firstItem="06K-ig-OB2" firstAttribute="top" secondItem="bwm-3I-WWa" secondAttribute="bottom" constant="8" symbolic="YES" id="lUH-UN-K8S"/>
+                                    <constraint firstItem="bwm-3I-WWa" firstAttribute="top" secondItem="MJt-QH-CPw" secondAttribute="top" constant="3" id="zWh-xX-nBm"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MJt-QH-CPw" secondAttribute="trailing" constant="72" id="2L1-b3-E9a"/>
+                            <constraint firstItem="MJt-QH-CPw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="73" id="4bI-KY-ic0"/>
+                            <constraint firstItem="MJt-QH-CPw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="279" id="xfL-0M-Ghb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51.851851851851848" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="peaches" width="200" height="200"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
